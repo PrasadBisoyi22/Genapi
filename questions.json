@@ -1,0 +1,45 @@
+{
+  "array": {
+    "Easy": [],
+    "Medium": [
+      {
+        "constraint": "Song durations are positive integers.  The target length is a positive integer. The output array of indices should be sorted in ascending order.",
+        "description": "Given an array of song durations (in seconds) and a target playlist length (in seconds), find the combination of songs that comes closest to the target length without exceeding it.  Return the total duration of the selected songs and the indices of the selected songs in the input array.",
+        "difficulty": "Medium",
+        "example": {
+          "input": "[[300, 180, 240, 120, 360], 700]",
+          "output": "[660, [0, 1, 3]]"
+        },
+        "id": "unique_id_12345",
+        "input_format": "[integer array, integer]",
+        "output_format": "[integer, integer array]",
+        "tags": [
+          "array",
+          "Medium",
+          "optimization"
+        ],
+        "test_cases": [
+          {
+            "input": "[[100, 200, 300, 400, 500], 900]",
+            "output": "[900, [1, 3]]"
+          },
+          {
+            "input": "[[150, 250, 350, 450], 500]",
+            "output": "[500, [0, 1]]"
+          },
+          {
+            "input": "[[100, 100, 100, 100, 100], 350]",
+            "output": "[300, [0, 1, 2]]"
+          },
+          {
+            "input": "[[50, 100, 150, 200, 250], 100]",
+            "output": "[100, [0]]"
+          }
+        ],
+        "title": "Optimal Playlist Sequencing",
+        "topic": "array"
+      }
+    ],
+    "Hard": []
+  }
+}
